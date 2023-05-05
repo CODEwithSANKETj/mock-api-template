@@ -154,5 +154,15 @@
   
     ],
     "Users":[
+        {
+    "id": 1,
+    "Username": "jaiswalsanket",
+    "Password": "Test@123",
+    "Name": "Sanket Jaiswal",
+    "Age": 24,
+    "Email": "Jaiswalsanket9404@gmail.com",
+    "Bookings": [ ],
+    "Cancled": [ ]
+  }
     ]
   }
