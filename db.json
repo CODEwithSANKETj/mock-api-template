@@ -154,6 +154,27 @@
   
     ],
     "Users":[
+<<<<<<< HEAD
         
     ]
   }
+=======
+        {
+    "id": 1,
+    "Name": "Sanket Jaiswal",
+    "Email": "daoinodnao@gmail.com",
+    "Password": "123",
+    "Booked": [ ],
+    "Cancled": [ ]
+  },
+  {
+    "id": 2,
+    "Name": "Sanket Jaiswal",
+    "Email": "daoinodnao123@gmail.com",
+    "Password": "123",
+    "Booked": [ ],
+    "Cancled": [ ]
+  }
+    ]
+  }
+>>>>>>> 4f29a1cd917eb7d378c4fd0b7032697f47803fce
