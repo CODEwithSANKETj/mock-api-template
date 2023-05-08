@@ -154,8 +154,25 @@
   
     ],
     "Users":[
-<<<<<<< HEAD
-        
+        {
+            "id": 1,
+            "Name": "Sanket Jaiswal",
+            "Email": "rajkmuarjaiswal448@gmail.com",
+            "Age": "51",
+            "Password": "123",
+            "Bookings": [ ],
+            "Cancled": [ ]
+          },
+          {
+            "id": 4,
+            "Name": "Rajkumar Jaiswal",
+            "Email": "rajkumar@123",
+            "Age": "55",
+            "Password": "123",
+            "Bookings": [ ],
+            "Cancled": [ ]
+          }
+
     ]
   }
 =======
