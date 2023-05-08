@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<style type="text/css">
+		body {
+			background-image: url('background.jpg');
+			background-size: cover;
+			background-position: center;
+			font-family: Arial, sans-serif;
+		}
+		form {
+			width: 400px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px #ccc;
+		}
+		h1 {
+			text-align: center;
+			color: #fff;
+			text-shadow: 0px 0px 5px #000;
+			margin-top: 50px;
+		}
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		input[type=submit] {
+			background-color: #e67f10;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			width: 100%;
+		}
+		input[type=submit]:hover {
+			background-color: #e67f11;
+		}
+	</style>
+</head>
+<body>
+	<h1>Sign Up</h1>
+	<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" placeholder="Your name..." required>
+		
+		<label for="email">Email</label>
+		<input type="text" id="email" name="email" placeholder="Your email..." required>
+		
+		<label for="Age">Age</label>
+		<input type="text" id="Age" name="Age" placeholder="Age" required>
+
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" placeholder="Your password..."required>
+		
+		<label for="password2">Retype Password</label>
+		<input type="password" id="password2" name="password2" placeholder="Retype your password..."required>
+		<a href="/login.html">Already a customer ? Click Here</a>
+		<input type="submit" value="Sign Up">
+	</form>
+    <script src="/script/signup.js"></script>
+</body>
+</html>

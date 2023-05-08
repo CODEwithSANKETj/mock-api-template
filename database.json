@@ -1,0 +1,178 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "image": "https://i0.wp.com/www.india-briefing.com/news/wp-content/uploads/2013/07/India-Briefing-Economy-of-Mumbai-Indias-Major-Commercial-Hub.jpg?ssl=1",
+      "place": "Mumbai",
+      "desc": "Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry.",
+      "price": 3000,
+      "rating": "4.1",
+      "details": [
+        {
+            "name":"Gate way of India",
+            "image":"https://imaginoso.com/files/styles/1200x1200/public/india/mumbai/2301-gateway-india-northwest-elevation-1998.jpg.webp?itok=2DyCT-nv",
+            "details" : "The Gateway of India is located on the waterfront at Apollo Bunder area at the end of Chhatrapati Shivaji Marg in South Mumbai and overlooks the Arabian Sea. The monument has also been referred to as the Taj Mahal of Mumbai, and is the city's top tourist attraction."
+      },
+      {
+        "name":"Marine Drive",
+        "image":"https://resize.indiatvnews.com/en/resize/oldbucket/730_-/mainnational/IndiaTv5105ff_main.jpg",
+        "details":"Marine Drive is a 3 kilometre-long Promenade along the Netaji Subhash Chandra Bose Road in Mumbai, India. The road and promenade were constructed by Pallonji Mistry. It is a 'C'-shaped six-lane concrete road along the coast of a natural bay."
+      },
+      {
+        "name":"Global Vipassana Pagoda",
+        "image":"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/81/d6/6e.jpg",
+        "details":"The Global Vipassana Pagoda is a Meditation dome hall with a capacity to seat around 8,000 Vipassana meditators near Gorai, north-west of Mumbai, Maharashtra, India. The pagoda was inaugurated by Pratibha Patil, then President of India, on 8 February 2009."
+      }
+      ]
+    },
+    {
+        "id":2,
+        "image":"https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2023/02/13/226854-delhi-1.jpg?itok=LXQjI6w3&c=c5af8c0f92ccc8e249257bf0f1cb18e8",
+        "place":"Delhi",
+        "desc":"Delhi, India’s capital territory, is a massive metropolitan area in the country’s north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people. Nearby is Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and spice stalls.",
+        "price":5000,
+        "rating":"4.0",
+        "details":[
+            {
+                "name":"India Gate",
+                "image":"https://rangandatta.files.wordpress.com/2016/09/india-gate-1.jpg",
+                "details":"The India Gate is a war memorial located near the Kartavya path on the eastern edge of the ceremonial axis of New Delhi, formerly called duty path"
+              },
+              {
+                "name":"Agra",
+                "image":"https://lh3.googleusercontent.com/proxy/mc77jok1KQ-JFg4gQAUeNwDKPEP2bNpHMXACDo8Vaz16n9ZJpDtEdpubLAJhxd-sMV1T2kCDixvas_eBsBRbXY6gVXaMFRjX5nqNwoM0YKIO3mCbWxHj1GI8wCyxqdxz9tOD_6kPtmreEJ0IEddhfL1yo1RbH7Y=s1360-w1360-h1020",
+                "details":"Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres south-east of the national capital New Delhi and 330 km west of the state capital Lucknow."
+            },
+            {
+                "name":"Red Fort",
+                "image":"https://assets-news.housing.com/news/wp-content/uploads/2021/07/20184714/All-about-the-Delhi-Red-Fort-or-Lal-Kila-FB-1200x700-compressed-2.jpg",
+                "details":"The Red Fort or Lal Qila is a historic fort in the Old Delhi neighbourhood of Delhi, India, that historically served as the main residence of the Mughal emperors. Emperor Shah Jahan commissioned construction of the Red Fort on 12ᵗʰ May 1638, when he decided to shift his capital from Agra to Delhi."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/12/12103708/jammu-and-kashmir-1-1600x900.jpg?tr=w-1366",
+        "place": "Jammu and Kashmir",
+        "desc": "Jammu and Kashmir is a region administered by India as a union territory and consists of the southern portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947, and between India and China since 1962.",
+        "price": 8000,
+        "rating": "4.4",
+        "details": [
+            {
+                "name":"Vaishno Devi",
+                "image":"https://akm-img-a-in.tosshub.com/businesstoday/images/story/202008/vaishno_devi_660_160820102134.jpg?size=948:533",
+                "details":"Vaishno Devi is a manifestation of the Hindu mother goddess Durga or Adi Shakti. The words Maa and Mata are commonly used in India for mother, and thus are often heavily used in connection with the goddess. Vaishno Devi took avatar from the combined energies of Mahakali, Mahalakshmi, and Mahasaraswati."
+            },
+            {
+                "name":"Gulmarg",
+                "image":"https://lestacworld.com/wp-content/uploads/2021/06/Gulmarg-Itinerary-1-870x555.webp",
+                "details":"Gulmarg, known as Gulmarag in Kashmiri, is a town, hill station, popular tourist destination, popular skiing destination and a notified area committee in the Baramulla district in the Indian union territory of Jammu and Kashmir. It is located at a distance of 31 km from Baramulla and 49 km from Srinagar."
+            },
+            {
+                "name":"Srinagar",
+                "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ3225m1UDwJ8tBGyu98tJB6iAXfumhySDmYHyetrrjOtzEjttn6Sz8Cd1h9-2KOciTUSIO-bC8yeSSdtgGB5PGirRoKA",
+                "details":"Srinagar is the largest city and the summer capital of Jammu and Kashmir, India. It lies in the Kashmir Valley on the banks of the Jhelum River, a tributary of the Indus, and Dal and Anchar lakes. The city is known for its natural environment, gardens, waterfronts and houseboats."
+            }
+        ]
+    },
+    {
+        "id":4,
+        "image":"https://www.holidify.com/images/bgImages/MANALI.jpg",
+        "place":"Manali",
+        "desc":"Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.",
+        "price":7000,
+        "rating":"4.6",
+        "details":[
+            {
+                "name":"Solang Valley",
+                "image":"https://www.holidify.com/images/cmsuploads/compressed/15655691644_c0a92b03d7_z_20190305135005.jpg",
+                "details":"Solang Valley also known as Snow Valley is a perfect place for adventure sports"
+            },
+            {
+                "name":"Mountains in manali",
+                "image":"https://www.holidify.com/images/cmsuploads/compressed/manali-1941788_960_720_20190313162556.jpg",
+                "details":"Snow Capped Mountains in Manali"
+            },
+            {
+                "name":"Shimla",
+                "image":"https://images.livemint.com/img/2022/02/04/600x338/PTI02-03-2022-000155A-0_1643968574317_1643968595482.jpg",
+                "details":"Shimla is the capital of the northern Indian state of Himachal Pradesh, in the Himalayan foothills. Once the summer capital of British India, it remains the terminus of the narrow-gauge Kalka-Shimla Railway, completed in 1903. It’s also known for the handicraft shops that line The Mall, a pedestrian avenue, as well as the Lakkar Bazaar, a market specializing in wooden toys and crafts."
+            }
+        ]
+    },
+    {
+        "id":5,
+        "image":"https://tds.indianeagle.com/wp-content/uploads/2022/07/Rajasthan.jpg",
+        "place":"Rajasthan",
+        "desc":"Rajasthan is a state in northern India. It covers 342,239 square kilometres or 10.4 per cent of India's total geographical area. It is the largest Indian state by area and the seventh largest by population.",
+        "price":6000,
+        "rating":"4.2",
+        "details":[
+            {
+                "name":"Hava Mahal Jaipur",
+                "image":"https://upload.wikimedia.org/wikipedia/commons/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+                "details":"The Hawa Mahal is a palace in the city of Jaipur, India. Built from red and pink sandstone, it is on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers."
+            },
+            {
+                "name":"DAUSA",
+                "image":"https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/banners/desk/10025.jpg",
+                "details":"Dausa is a small ancient town named after a Sanskrit word Dhau-sa meaning Beautiful like Heaven.Also referred as Deva Nagri, located around 55 km from Jaipur, on National Highway 11. The citywas the first headquarter of the former Kachhawaha Dynasty and has much history andarchaeological importance linked to it. Situated away from the bustling cities, the town of Dausa offers an authentic rural experience in Rajasthan"
+            },
+            {
+                "name":"SONIJI KI NASIYAN, AJMER",
+                "image":"https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/banners/desk/18.jpg",
+                "details":"Ajmer is bustling city, located 130 km southwest of Jaipur and just 14 km from the pilgrimage town of Pushkar. The city of Ajmer gets its name from “Ajay Meru”, which can be roughly translated as “invincible hill”. Home to a number of tourist places, Ajmer can be a perfect representation of the diversity of the Indian culture and ethics, and displays a perfect blend of religion, community, culture, etc., coexisting and flourishing in harmony."
+            }
+        ]
+    },
+    {
+        "id":6,
+        "image":"https://www.onmanorama.com/content/dam/mm/en/travel/travel-news/images/2022/7/13/kerala-tourism.jpg.transform/845x440/image.jpg",
+        "place":"Kerla",
+        "desc":"Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries, are home to elephants, langur monkeys and tigers.",
+        "price":6599,
+        "rating":"4.2",
+        "details":[
+            {
+                "name":"Munnar",
+                "image":"https://www.holidify.com/images/cmsuploads/compressed/4182528602_dab87a317c_b_20190207124130jpg",
+                "details":"Munnar is surrounded by rolling hills dotted with tea plantations established in the late 19th century."
+            },
+            {
+                "name":"Alleppey",
+                "image":"https://www.holidify.com/images/bgImages/ALLEPPEY.jpg",
+                "details":"Officially called Alappuzha, Alleppey is known for its network of canals and lagoons with beautiful backwaters and the houseboats offering overnight stays. Located in the southern part of Kerala, the coastline of Alleppey offers some of the best beaches with water sports during the dry season."
+            },
+            {
+                "name":"Ooty",
+                "image":"https://www.holidify.com/images/cmsuploads/compressed/ootytoytrain_20190306160328.jpg",
+                "details":"Nestled amidst Nilgiri hills, Ooty, also known as Udagamandalam, is a hill station in Tamil Nadu which serves as a top-rated tourist destination. Once regarded as the summer headquarters of the East India Company, the Queen of the hills is a picturesque getaway."
+            }
+        ]
+    }
+
+
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
